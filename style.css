@@ -378,7 +378,7 @@ nav .navbar .links li .sub-menu li{
   -webkit-box-direction: normal;
           flex-direction: row;
 }
-.login-form .action button {
+.login-form .action a.link {
   width: 100%;
   border: none;
   padding: 18px;
@@ -394,10 +394,11 @@ nav .navbar .links li .sub-menu li{
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-.login-form .action button:hover {
+.login-form .action a.link {
   background: #d8d8d8;
+  text-align: center;
 }
-.login-form .action button:nth-child(2) {
+.login-form .action a.link {
   background: #2d3b55;
   color: #fff;
   border-bottom-left-radius: 0;
