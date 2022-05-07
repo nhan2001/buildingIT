@@ -10,7 +10,7 @@ body{
   min-height: 100vh;
 }
 nav{
-  position: fixed;
+  position: flex;
   top: 0;
   left: 0;
   width: 100%;
@@ -399,11 +399,118 @@ nav .navbar .links li .sub-menu li{
   text-align: center;
 }
 .login-form .action a.link {
-  background: #2d3b55;
+  background: darkgray;
   color: #fff;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 4px;
 }
-.login-form .action button:nth-child(2):hover {
-  background: #3c4d6d;
+.login-form .action a.link:hover {
+  background: lightsalmon;
 }
+
+/* forgot pass */
+
+.forgotpass{
+    
+  display: block;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 300px;
+
+}
+
+.fpass{
+  background: darkgray;
+  width: 80%;
+  padding: 15px 20px;
+  margin: 5px 30px;
+  border-radius: 10px;
+}
+
+.fpass_h2{
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+  min-width: 300px;
+
+}
+
+.fpass h3{
+  color:orangered;
+}
+
+.fpass .fpass_box input[type="text"]{
+  padding:5px;
+  border-radius: 3px;
+  border: 1px solid;
+  width: 100%;
+  margin:10px auto;
+}
+.fpass_button {
+  display: flex;
+  justify-content: center;
+}
+
+.fpass_button input[type="submit"]{
+  border-radius: 5px;
+}
+
+.fpass_button input[type="submit"]:hover{
+  background-color: lightsalmon;
+}
+
+/*  */
+
+/* register page */
+
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+label{
+  padding: 10px;
+  font-weight: 200px;
+  font-style: italic;
+  color: orangered;
+}
+
+#register_form{
+  border: 1px solid;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 290px;
+  margin-top: 50px;
+}
+
+.regis_button{
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#regis_submit_button:hover{
+  background-color: orangered;
+}
+
+
+
+#regis_reset_button:hover{
+  background-color: orangered;
+}
+
+input{
+  margin-bottom: 4px;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+}
+
+/*  */
