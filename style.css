@@ -399,13 +399,13 @@ nav .navbar .links li .sub-menu li{
   text-align: center;
 }
 .login-form .action a.link {
-  background: #2d3b55;
+  background: darkgray;
   color: #fff;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 4px;
 }
-.login-form .action button:nth-child(2):hover {
-  background: #3c4d6d;
+.login-form .action a.link:hover {
+  background: lightsalmon;
 }
 
 /* forgot pass */
