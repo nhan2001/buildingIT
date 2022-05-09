@@ -1,4 +1,4 @@
-/* Google Font CDN Link */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -10,7 +10,7 @@ body{
   min-height: 100vh;
   width: 100%;
   background: #5DD3CF;
-  display: flex;
+  display:block;
   align-items: center;
   justify-content: center;
 }
@@ -20,6 +20,7 @@ body{
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: flexbox;
 }
 .container .content{
   display: flex;
