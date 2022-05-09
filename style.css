@@ -10,7 +10,7 @@ body{
   min-height: 100vh;
 }
 nav{
-  position: fixed;
+  position: flex;
   top: 0;
   left: 0;
   width: 100%;
@@ -371,6 +371,15 @@ nav .navbar .links li .sub-menu li{
   display: inline-block;
   margin-top: 20px;
 }
+
+.login-form #signin {
+  text-decoration: none;
+  color: #747474;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+}
 .login-form .action {
   display: -webkit-box;
   display: flex;
@@ -378,7 +387,7 @@ nav .navbar .links li .sub-menu li{
   -webkit-box-direction: normal;
           flex-direction: row;
 }
-.login-form .action button {
+.login-form .action a.link {
   width: 100%;
   border: none;
   padding: 18px;
@@ -394,15 +403,156 @@ nav .navbar .links li .sub-menu li{
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-.login-form .action button:hover {
+.login-form .action a.link {
   background: #d8d8d8;
+  text-align: center;
 }
-.login-form .action button:nth-child(2) {
-  background: #2d3b55;
+.login-form .action a.link {
+  background: darkgray;
   color: #fff;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 4px;
 }
-.login-form .action button:nth-child(2):hover {
-  background: #3c4d6d;
+.login-form .action a.link:hover {
+  background: lightsalmon;
 }
+
+.login-form .action #signin {
+  width: 100%;
+  border: none;
+  padding: 18px;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #e8e9ec;
+  color: #777;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  letter-spacing: 0.2px;
+  outline: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.login-form .action #signin {
+  background: #d8d8d8;
+  text-align: center;
+}
+.login-form .action #signin {
+  background: darkgray;
+  color: #fff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+.login-form .action #signin:hover {
+  background: lightsalmon;
+}
+
+/* forgot pass */
+
+.forgotpass{
+    
+  display: block;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 300px;
+
+}
+
+.fpass{
+  background: darkgray;
+  width: 80%;
+  padding: 15px 20px;
+  margin: 5px 30px;
+  border-radius: 10px;
+}
+
+.fpass_h2{
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+  min-width: 300px;
+
+}
+
+.fpass h3{
+  color:orangered;
+}
+
+.fpass .fpass_box input[type="text"]{
+  padding:5px;
+  border-radius: 3px;
+  border: 1px solid;
+  width: 100%;
+  margin:10px auto;
+}
+.fpass_button {
+  display: flex;
+  justify-content: center;
+}
+
+.fpass_button input[type="submit"]{
+  border-radius: 5px;
+}
+
+.fpass_button input[type="submit"]:hover{
+  background-color: lightsalmon;
+}
+
+/*  */
+
+/* register page */
+
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+label{
+  padding: 10px;
+  font-weight: 200px;
+  font-style: italic;
+  color: orangered;
+}
+
+#register_form{
+  border: 1px solid;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 290px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.regis_button{
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#regis_submit_button:hover{
+  background-color: orangered;
+}
+
+
+
+#regis_reset_button:hover{
+  background-color: orangered;
+}
+
+input{
+  margin-bottom: 4px;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+}
+
+/*  */
