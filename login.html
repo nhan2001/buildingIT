@@ -112,10 +112,16 @@
           </div>
           <div class="action">
             <a href="register.html" class="link">Register</a>
-            <a href="" class="link">Sign In</a>
+            <button onclick="myFunction()" id="signin">SIGN IN</button>
           </div>
         </form>
-      </div> 
-   
+    </div>
+    <script>
+      function myFunction() {
+        var txt;
+        confirm("Log in successfully");
+        document.getElementById("signin").innerHTML = txt;
+      } 
+    </script>
 </body>
 </html>
