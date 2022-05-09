@@ -25,6 +25,6 @@ $(document).ready(function () {
         },
       ],
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 2000,
     });
   });
