@@ -796,9 +796,6 @@ section .card .image img{
   margin-top: 20px;
 }
 
-.login-form a.link{
-  
-} 
 
 .login-form #signin {
   text-decoration: none;
@@ -876,3 +873,70 @@ section .card .image img{
 .login-form .action #signin:hover {
   background: lightsalmon;
 }
+
+/* forgot pass */
+
+.forgotpass{
+    
+  display: block;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 300px;
+
+}
+
+.para_fpass{
+  font-size: 15px;
+}
+
+.fpass{
+  background: darkgray;
+  width: 80%;
+  padding: 15px 20px;
+  margin: 5px 30px;
+  border-radius: 10px;
+}
+
+.fpass_h2{
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+  min-width: 300px;
+  font-size: 25px;
+
+}
+
+.fpass h3{
+  color:orangered;
+  font-size: 20px;
+}
+
+.fpass .fpass_box input[type="text"]{
+  padding:5px;
+  border-radius: 3px;
+  border: 1px solid;
+  width: 100%;
+  margin:10px auto;
+}
+.fpass_button {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.fpass_button button{
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.fpass_button button:hover{
+  background-color: lightsalmon;
+}
+
+/*  */

@@ -23,7 +23,7 @@
             <a href="1.0.5-Tools.html">Tools</a>
             <a href="1.0.6-AboutUs.html">About Us</a>
             <a href="1.0.7-ContactUs.html">Contact Us</a>
-            <a href="1.0.8-LogIn.html">LogIn   </a>
+            <a href="1.0.8-LogIn.html">LogIn&nbsp&nbsp</a>
             <i class="fa fa-search"></i>
             <input type="text" name="search" placeholder="Search..">
         </nav>
@@ -32,14 +32,14 @@
 
     <h2 class="fpass_h2">Reset Password Form</h2>
     <div class="forgotpass">
-        <form method="POST" class="fpass">
+        <form method="" class="fpass">
             <div class="fpass_box">
                 <h3>Forgot Your Password?</h3>
                 <p class="para_fpass">Don't worry. Enter your email below and we'll send you an email with intruction on how to reset your password.</p>
                 <input type="text" placeholder="Enter Email">
             </div>
             <div class="fpass_button">
-                <input type="submit" value="Reset Password">
+                <button onclick="myFunction()" id="reset">RESET EMAIL</button>
             </div>
         </form>
     </div>
@@ -54,5 +54,12 @@
       <h1 class="credit"> created by <span> Group 6 </span> | all rights reserved! </h1>
     </section>
 
+    <script>
+        function myFunction() {
+          var txt;
+          confirm("Check your email");
+          document.getElementById("reset").innerHTML = txt;
+        } 
+      </script>
 </body>
 </html>
