@@ -443,7 +443,8 @@ header .navbar a:hover {
 }
 
 .order .row form .btn {
-    background: none;
+    background: gray
+    ;
 }
 
 .order .row form .btn:hover {
