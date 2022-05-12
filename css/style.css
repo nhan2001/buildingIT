@@ -571,8 +571,6 @@ header .navbar a:hover{
 
 /* about us css  */
 
-/* === Google Font Import - Poppins === */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
   margin: 0;
@@ -581,7 +579,7 @@ header .navbar a:hover{
   font-family: 'Poppins', sans-serif;
 }
 
-body{
+/* body{
   height: 100vh;
   display: flex;
   align-items: center;
@@ -595,7 +593,7 @@ section{
   width: 1075px;
   display: flex;
   align-items: center;
-}
+} */
 
 .swiper{
   width: 950px;
