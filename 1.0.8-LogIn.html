@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo_icon.jpg" type="image/x-icon">
+    <title>Log In</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header section starts  -->
+    <header>
+        <a href="1.0.1-HomePage.html" class="logo"><i class="fad fa-hat-chef"></i>How To Cook</a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="1.0.1-HomePage.html">Home</a>
+            <a href="1.0.2-Menu.html">Menu</a>
+            <a href="1.0.4-Chefs.html">Chefs</a>
+            <a href="1.0.5-Tools.html">Tools</a>
+            <a href="1.0.6-AboutUs.html">About Us</a>
+            <a href="1.0.7-ContactUs.html">Contact Us</a>
+            <a href="1.0.8-LogIn.html">LogIn   </a>
+            <i class="fa fa-search"></i>
+            <input type="text" name="search" placeholder="Search..">
+        </nav>
+    </header>
+    <!-- header section ends -->
+    <div class="login-form">
+        <form>
+          <h1>Login</h1>
+          <div class="content">
+            <div class="input-field">
+              <input type="email" placeholder="Email" autocomplete="nope">
+            </div>
+            <div class="input-field">
+              <input type="password" placeholder="Password" autocomplete="new-password">
+            </div>
+            <a href="forgot_pass.html" class="link">Forgot Your Password?</a>
+          </div>
+          <div class="action">
+            <a href="register.html" class="link">Register</a>
+            <button onclick="myFunction()" id="signin">SIGN IN</button>
+          </div>
+        </form>
+    </div>
+    <script>
+      function myFunction() {
+        var txt;
+        confirm("Log in successfully");
+        document.getElementById("signin").innerHTML = txt;
+      } 
+    </script>
+</body>
+</html>
