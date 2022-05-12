@@ -453,10 +453,7 @@ header .navbar a:hover {
 .footer {
     background: #000;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
+
 }
 
 .footer .share {
