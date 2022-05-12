@@ -1043,6 +1043,15 @@ footer p:nth-child(2) {
   
 }
 
+.content .forgot_link{
+  font-size: 15px;
+  color: gray;
+}
+
+.content .forgot_link:hover{
+
+}
+
 .fpass_button button{
   border-radius: 5px;
   text-decoration: none;
