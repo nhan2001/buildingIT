@@ -840,7 +840,7 @@ section .card .image img{
   border-bottom-right-radius: 4px;
 }
 .login-form .action a.link:hover {
-  background: lightsalmon;
+  background: lightcoral;
 }
 
 .login-form .action #signin {
@@ -871,7 +871,7 @@ section .card .image img{
   border-bottom-right-radius: 4px;
 }
 .login-form .action #signin:hover {
-  background: lightsalmon;
+  background: lightcoral;
 }
 
 /* forgot pass */
@@ -936,7 +936,49 @@ section .card .image img{
 }
 
 .fpass_button button:hover{
-  background-color: lightsalmon;
+  background-color: lightcoral;
 }
 
 /*  */
+
+/* CSS for register page */
+
+
+.register_form{
+  margin: auto;
+  width: 50%;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0, 7);
+  
+}
+
+
+input[class="fn"], input[class="pw"]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color: whitesmoke;
+}
+
+input[class="fn"]:focus, input[class="pw"]:focus{
+  background-color: #ddd;
+  outline:none;
+}
+
+.regis_button{
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+}
+
+.regis_button:hover{
+  background-color: lightcoral;
+
+}
