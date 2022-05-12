@@ -1042,6 +1042,7 @@ input[class="fn"], input[class="pw"]{
   display: inline-block;
   border: none;
   background-color: whitesmoke;
+  
 }
 
 input[class="fn"]:focus, input[class="pw"]:focus{
@@ -1065,6 +1066,7 @@ input[class="fn"]:focus, input[class="pw"]:focus{
 
 b {
   font-size: 15px;
+  color:#f9004d;
 }
 
 .p_regis{
