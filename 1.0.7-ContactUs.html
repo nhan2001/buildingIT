@@ -79,7 +79,8 @@
                     <input type="text" placeholder="Food Name">
                 </div>
                 <textarea placeholder="Your Opinion" name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Send!" class="btn">
+                <!-- <input type="submit" value="Send!" class="btn"> -->
+                <button class="send_btn" onclick="myFunction()">Send</button>
             </form>
         </div>
     </section>
@@ -104,6 +105,14 @@
         </div>
         <p class="end">CopyRight By Group 6</p>
     </footer>
+
+    <script>
+        function myFunction() {
+            var txt;
+            confirm("We have received your email!");
+            document.getElementById("signin").innerHTML = txt;
+        }
+    </script>
 
     <!-- scroll top button  -->
     <a href="1.0.7-ContactUs.html" class="fas fa-angle-up" id="scroll-top"></a>

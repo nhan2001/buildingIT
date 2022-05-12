@@ -567,19 +567,19 @@ header .navbar a:hover {
     transform: translateY(-50%);
 }
 
-h1 {
+.content-1 h1 {
     color: black;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
-h3 {
+.content-1 h3 {
     color: black;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
-h4 {
+.content-1 h4 {
     color: black;
     letter-spacing: 2px;
     font-size: 20px;
