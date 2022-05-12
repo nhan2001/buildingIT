@@ -499,17 +499,6 @@ header .navbar a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
 
 @media(max-width:991px){
@@ -572,12 +561,12 @@ header .navbar a:hover{
 /* about us css  */
 
 
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-}
+} */
 
 /* body{
   height: 100vh;
@@ -595,7 +584,7 @@ section{
   align-items: center;
 } */
 
-.swiper{
+/* .swiper{
   width: 950px;
 }
 
@@ -734,7 +723,7 @@ section .card .image img{
 .swiper-button-next:hover, .swiper-button-prev:hover{
   opacity: 1;
   color: #7d2ae8;
-}
+} */
 
 /* CSS for log in page */
 * {
