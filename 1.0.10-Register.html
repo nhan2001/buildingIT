@@ -31,22 +31,22 @@
     <!-- header section ends -->
 
     <div class = "register_form">
-        <form action="">
-            <h2>Register Form</h2>
-            <p>Please fill in the form to register an account</p> 
+        <form action="1.0.8-LogIn.html">
+            <h2 class="h_regis">Register Form</h2>
+            <p class="p_regis">Please fill in the form to register an account</p> 
             <hr/>
 
             <label for="fn"><b>First Name</b></label>
-            <input type="text" name="fn" class="fn" placeholder="First Name" required/>
+            <input type="text" name="fn" class="fn" placeholder="First Name">
 
             <label for="ln"><b>Last Name</b></label>
-            <input type="text" name="ln" class="fn" placeholder="Last Name" required/>
+            <input type="text" name="ln" class="fn" placeholder="Last Name">
 
             <label for="pw"><b>Password</b></label>
-            <input type="password" name="pw" class="pw" placeholder="Enter your Password" required/>
+            <input type="password" name="pw" class="pw" placeholder="Enter your Password">
 
             <label for="cpw"><b>Confirm Password</b></label>
-            <input type="password" name="cpw" class="pw" placeholder="Enter your Password Again" required/>
+            <input type="password" name="cpw" class="pw" placeholder="Enter your Password Again">
 
             <hr/>
             <button onclick="myFunction()" class="regis_button">Register</button>
@@ -67,8 +67,8 @@
     <script>
       function myFunction() {
         var txt;
-        confirm("Log in successfully");
-        document.getElementById("signin").innerHTML = txt;
+        confirm("Sign Up successfully");
+        document.getElementsByClassName("regis_button").innerHTML = txt;
       } 
     </script>
 </body>
