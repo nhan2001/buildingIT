@@ -48,3 +48,8 @@ Title (if available), Author’s name, Date, code version (if known), availabili
 * Code version: x
 *Availability: https://www.w3schools.com/default.asp
 
+****************************************************************/
+Title: HTML Registration Form Design | How To Create Registration Form In HTML | HTML Tutorial |Simplilearn
+Author: Simplilearn
+Date: 1 April 2021
+Availability: https://youtu.be/6xHjLjreSzM (Accessed 12 May 2022)
