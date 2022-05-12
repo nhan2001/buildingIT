@@ -841,3 +841,276 @@ footer p:nth-child(2) {
     bottom: 35px;
     font-size: 14px;
 }
+
+/* CSS for log in page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.login-form {
+  background: #fff;
+  width: 500px;
+  margin: 65px auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.login-form h1 {
+  padding: 35px 35px 0 35px;
+  font-weight: 300;
+}
+.login-form .content {
+  padding: 35px;
+  text-align: center;
+}
+.login-form .input-field {
+  padding: 12px 5px;
+}
+.login-form .input-field input {
+  font-size: 16px;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 1px solid #747474;
+  outline: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.login-form .input-field input::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+.login-form .input-field input::-moz-placeholder {
+  text-transform: uppercase;
+}
+.login-form .input-field input:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+.login-form .input-field input::-ms-input-placeholder {
+  text-transform: uppercase;
+}
+.login-form .input-field input::placeholder {
+  text-transform: uppercase;
+}
+.login-form .input-field input:focus {
+  border-color: #222;
+}
+.login-form a.link {
+  font-size: larger;
+  text-decoration: none;
+  color: #747474;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+.login-form #signin {
+  text-decoration: none;
+  color: #747474;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+}
+.login-form .action {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+.login-form .action a.link {
+  font-size: larger;
+  width: 100%;
+  border: none;
+  padding: 18px;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #e8e9ec;
+  color: #777;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  letter-spacing: 0.2px;
+  outline: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.login-form .action a.link {
+  background: #d8d8d8;
+  text-align: center;
+}
+.login-form .action a.link {
+  background: darkgray;
+  color: #fff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+.login-form .action a.link:hover {
+  background: lightcoral;
+}
+
+.login-form .action #signin {
+  font-size:small;
+  width: 100%;
+  border: none;
+  padding: 18px;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #e8e9ec;
+  color: #777;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  letter-spacing: 0.2px;
+  outline: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.login-form .action #signin {
+  background: #d8d8d8;
+  text-align: center;
+}
+.login-form .action #signin {
+  background: darkgray;
+  color: #fff;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 4px;
+}
+.login-form .action #signin:hover {
+  background: lightcoral;
+}
+
+/* forgot pass */
+
+.forgotpass{
+    
+  display: block;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 300px;
+
+}
+
+.para_fpass{
+  font-size: 15px;
+}
+
+.fpass{
+  background: darkgray;
+  width: 80%;
+  padding: 15px 20px;
+  margin: 5px 30px;
+  border-radius: 10px;
+}
+
+.fpass_h2{
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+  min-width: 300px;
+  font-size: 25px;
+
+}
+
+.fpass h3{
+  color:orangered;
+  font-size: 20px;
+}
+
+.fpass .fpass_box input[type="text"]{
+  padding:5px;
+  border-radius: 3px;
+  border: 1px solid;
+  width: 100%;
+  margin:10px auto;
+}
+.fpass_button {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.fpass_button button{
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.fpass_button button:hover{
+  background-color: lightcoral;
+}
+
+/*  */
+
+/* CSS for register page */
+
+
+.register_form{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 50%;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0, 7);
+  
+}
+
+
+input[class="fn"], input[class="pw"]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color: whitesmoke;
+}
+
+input[class="fn"]:focus, input[class="pw"]:focus{
+  background-color: #ddd;
+  outline:none;
+}
+
+.regis_button{
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+}
+
+.regis_button:hover{
+  background-color: lightcoral;
+}
+
+b {
+  font-size: 15px;
+}
+
+.p_regis{
+  font-size: 15px;
+}
+
+.h_regis{
+  font-size: 25px;
+  text-align: center;
+}
